@@ -9,7 +9,7 @@ public class HmmBot extends LocalPrioritisedListBot {
         Random rand = new Random();
 
         int[][] pref = {
-                {0, 0}, {0, 2}, {2, 0}, {2, 2},
+                {0, 0}, {0, 2}, {2, 2}, {2, 0},
                 {rand.nextInt(3), rand.nextInt(3)},  {rand.nextInt(3), rand.nextInt(3)},  {rand.nextInt(3), rand.nextInt(3)},  {rand.nextInt(3), rand.nextInt(3)},
                 {rand.nextInt(3), rand.nextInt(3)}};
         super.preferredMoves = pref;
