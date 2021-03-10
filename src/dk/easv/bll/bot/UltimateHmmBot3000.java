@@ -9,10 +9,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class HmmBotV2 extends LocalPrioritisedListBot {
-    private static final String BOTNAME = "Hmm Bot Version 2";
+public class UltimateHmmBot3000 extends LocalPrioritisedListBot {
+    private static final String BOTNAME = "Ultimate Hmm Bot 3000";
 
-    public HmmBotV2() {
+    public UltimateHmmBot3000() {
         Random rand = new Random();
 
         int[][] pref = {
